@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="SACM CI Server IRE" max_length="40" name="x_185012_iplookup_sacm_ci_server_ire" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Class" label="Class" max_length="40" name="u_class" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Unique ID" label="Unique ID" max_length="40" name="u_unique_id" type="string"/>
+    </element>
+</database>
